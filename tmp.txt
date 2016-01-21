@@ -1,0 +1,114 @@
+a
+total 28
+-rwxr-xr-x 1 ubuntu ubuntu 4811 Jan 19 16:33 app.py
+drwxrwxr-x 6 ubuntu ubuntu 4096 Nov 29 22:36 flask
+-rw-rw-r-- 1 ubuntu ubuntu 9482 Jan 17 14:30 out.txt
+-rw-rw-r-- 1 ubuntu ubuntu    2 Jan 19 16:33 tmp.txt
+Two IP addressess are not passed as input.
+Usage: ../king/bin/king [-c count] [-d dir] IP_Address1 IP_Address2
+
+ Where count = number of query packets sent, the larger the better, default count = 4 (strongly advised), min 2 
+ dir = f for IP_Address1 to IP_Address2 only and  dir = b for either direction, Default dir = b
+Example:
+../king/bin/king -c 5 -d f 128.95.4.1 128.95.2.67
+
+Latency is estimated between 227.8.105.129.in-addr.arpa. and 209.182.124.165.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 771 usec 
+Querying local name server for name servers for 227.8.105.129.in-addr.arpa. .... 
+Query Time 805 usec 
+Name Server 0: accuvax.northwestern.edu 
+Name Server 1: ns1.ece.northwestern.edu 
+Name Server 2: ns2.ece.northwestern.edu 
+Name Server 3: ns3.ece.northwestern.edu 
+Name Server 4: dns1.buffalo.edu 
+Name Server 5: cicada.northwestern.edu 
+Query Time 682 usec 
+Querying local name server for name servers for 209.182.124.165.in-addr.arpa. .... 
+Query Time 697 usec 
+Name Server 0: accuvax.northwestern.edu 
+Name Server 1: ns3.ece.northwestern.edu 
+Name Server 2: dns1.buffalo.edu 
+Name Server 3: cicada.northwestern.edu 
+
+Checking if there are root name servers among authoritative name servers for either end hosts
+Check Succeeded without any failures
+
+
+END OF STAGE 1 
+
+
+BEGIN OF STAGE 2 
+
+Querying to check if name server accuvax.northwestern.edu is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server accuvax.northwestern.edu is recursive
+Querying to check if name server ns1.ece.northwestern.edu is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns1.ece.northwestern.edu is recursive
+Querying to check if name server ns2.ece.northwestern.edu is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns2.ece.northwestern.edu is recursive
+Querying to check if name server ns3.ece.northwestern.edu is recursive
+Query Time 6828 usec 
+Name Server ns3.ece.northwestern.edu IS recursive 
+Querying to check if name server dns1.buffalo.edu is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns1.buffalo.edu is recursive
+Querying to check if name server cicada.northwestern.edu is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server cicada.northwestern.edu is recursive
+Number of Recursive Name Servers = 1
+
+END OF STAGE 2 
+
+
+
+BEGIN OF STAGE 3 
+
+Querying for ip address of ns3.ece.northwestern.edu .... 
+Query Time 862 usec 
+The IP Address of ns3.ece.northwestern.edu is 129.105.5.98
+The extent of match of ns3.ece.northwestern.edu is 2 
+THE RECURSIVE SERVER CHOSEN IS ns3.ece.northwestern.edu AND ITS IP ADDRESS is 129.105.5.98
+
+Extent of Name and IP Match Between End Host and Name Servers are 1 0 2
+
+
+END OF STAGE 3 
+
+
+
+
+BEGIN OF STAGE 4 
+
+Ping Attempt 0 to ns3.ece.northwestern.edu
+Query Time 658 usec 
+Recursive Ping Attempt 0 from ns3.ece.northwestern.edu to 111276.209.182.124.165.in-addr.arpa.
+Size of Response is 2560000
+Query Time 678 usec 
+Ping Attempt 1 to ns3.ece.northwestern.edu
+Query Time 658 usec 
+Recursive Ping Attempt 1 from ns3.ece.northwestern.edu to 314409.209.182.124.165.in-addr.arpa.
+Size of Response is 2560000
+Query Time 667 usec 
+Ping Attempt 2 to ns3.ece.northwestern.edu
+Query Time 655 usec 
+Recursive Ping Attempt 2 from ns3.ece.northwestern.edu to 517539.209.182.124.165.in-addr.arpa.
+Size of Response is 2560000
+Query Time 671 usec 
+Ping Attempt 3 to ns3.ece.northwestern.edu
+Query Time 656 usec 
+Recursive Ping Attempt 3 from ns3.ece.northwestern.edu to 720672.209.182.124.165.in-addr.arpa.
+Size of Response is 2560000
+Query Time 659 usec 
+
+
+END OF STAGE 4 
+
+The direction of estimation is FORWARD
+THE ESTIMATED LATENCY BETWEEN 129.105.8.227 and 165.124.182.209 IS 4 usec
+THE ESTIMATED BANDWIDTH IS 640000000.000000 KB/s

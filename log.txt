@@ -1,0 +1,2156 @@
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 68.191.23.23.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 17397 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 568 usec 
+Query Time 17524 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 653 usec 
+Query Time 17467 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 693 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 58.2.129.174.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 718 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 676 usec 
+Query Time 709 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 718 usec 
+Query Time 714 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 718 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 119.247.105.129.in-addr.arpa. and 21.2.204.54.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 1671 usec 
+Querying local name server for name servers for 119.247.105.129.in-addr.arpa. .... 
+Query Time 704 usec 
+Name Server 0: cicada.northwestern.edu 
+Name Server 1: accuvax.northwestern.edu 
+Name Server 2: dns1.buffalo.edu 
+Query Time 6261 usec 
+Querying local name server for name servers for 21.2.204.54.in-addr.arpa. .... 
+Query Time 871 usec 
+Name Server 0: x2.amazonaws.com 
+Name Server 1: x3.amazonaws.org 
+Name Server 2: x4.amazonaws.org 
+Name Server 3: pdns1.ultradns.net 
+Name Server 4: x1.amazonaws.com 
+
+Checking if there are root name servers among authoritative name servers for either end hosts
+Check Succeeded without any failures
+
+
+END OF STAGE 1 
+
+
+BEGIN OF STAGE 2 
+
+Querying to check if name server cicada.northwestern.edu is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server cicada.northwestern.edu is recursive
+Querying to check if name server accuvax.northwestern.edu is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server accuvax.northwestern.edu is recursive
+Querying to check if name server dns1.buffalo.edu is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns1.buffalo.edu is recursive
+Querying to check if name server x2.amazonaws.com is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server x2.amazonaws.com is recursive
+Querying to check if name server x3.amazonaws.org is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server x3.amazonaws.org is recursive
+Querying to check if name server x4.amazonaws.org is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server x4.amazonaws.org is recursive
+Querying to check if name server pdns1.ultradns.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server pdns1.ultradns.net is recursive
+Querying to check if name server x1.amazonaws.com is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server x1.amazonaws.com is recursive
+EXITING THE PROGRAM DUE TO LACK OF RECURSIVE NAME SERVERS
+
+Latency is estimated between 116.247.105.129.in-addr.arpa. and 23.216.58.216.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 2021 usec 
+Querying local name server for name servers for 116.247.105.129.in-addr.arpa. .... 
+Query Time 843 usec 
+Name Server 0: dns1.buffalo.edu 
+Name Server 1: cicada.northwestern.edu 
+Name Server 2: accuvax.northwestern.edu 
+Query Time 12979 usec 
+Querying local name server for name servers for 23.216.58.216.in-addr.arpa. .... 
+Query Time 689 usec 
+Name Server 0: ns3.google.com 
+Name Server 1: ns4.google.com 
+Name Server 2: ns1.google.com 
+Name Server 3: ns2.google.com 
+
+Checking if there are root name servers among authoritative name servers for either end hosts
+Check Succeeded without any failures
+
+
+END OF STAGE 1 
+
+
+BEGIN OF STAGE 2 
+
+Querying to check if name server dns1.buffalo.edu is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns1.buffalo.edu is recursive
+Querying to check if name server cicada.northwestern.edu is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server cicada.northwestern.edu is recursive
+Querying to check if name server accuvax.northwestern.edu is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server accuvax.northwestern.edu is recursive
+Querying to check if name server ns3.google.com is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns3.google.com is recursive
+Querying to check if name server ns4.google.com is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns4.google.com is recursive
+Querying to check if name server ns1.google.com is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns1.google.com is recursive
+Querying to check if name server ns2.google.com is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns2.google.com is recursive
+EXITING THE PROGRAM DUE TO LACK OF RECURSIVE NAME SERVERS
+
+Latency is estimated between 116.247.105.129.in-addr.arpa. and 23.216.58.216.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 911 usec 
+Querying local name server for name servers for 116.247.105.129.in-addr.arpa. .... 
+Query Time 668 usec 
+Name Server 0: cicada.northwestern.edu 
+Name Server 1: accuvax.northwestern.edu 
+Name Server 2: dns1.buffalo.edu 
+Query Time 717 usec 
+Querying local name server for name servers for 23.216.58.216.in-addr.arpa. .... 
+Query Time 711 usec 
+Name Server 0: ns1.google.com 
+Name Server 1: ns2.google.com 
+Name Server 2: ns3.google.com 
+Name Server 3: ns4.google.com 
+
+Checking if there are root name servers among authoritative name servers for either end hosts
+Check Succeeded without any failures
+
+
+END OF STAGE 1 
+
+
+BEGIN OF STAGE 2 
+
+Querying to check if name server cicada.northwestern.edu is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server cicada.northwestern.edu is recursive
+Querying to check if name server accuvax.northwestern.edu is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server accuvax.northwestern.edu is recursive
+Querying to check if name server dns1.buffalo.edu is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns1.buffalo.edu is recursive
+Querying to check if name server ns1.google.com is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns1.google.com is recursive
+Querying to check if name server ns2.google.com is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns2.google.com is recursive
+Querying to check if name server ns3.google.com is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns3.google.com is recursive
+Querying to check if name server ns4.google.com is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns4.google.com is recursive
+EXITING THE PROGRAM DUE TO LACK OF RECURSIVE NAME SERVERS
+
+Latency is estimated between 229.8.105.129.in-addr.arpa. and 24.132.162.107.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 756 usec 
+Querying local name server for name servers for 229.8.105.129.in-addr.arpa. .... 
+Query Time 690 usec 
+Name Server 0: ns2.ece.northwestern.edu 
+Name Server 1: ns3.ece.northwestern.edu 
+Name Server 2: dns1.buffalo.edu 
+Name Server 3: cicada.northwestern.edu 
+Name Server 4: accuvax.northwestern.edu 
+Name Server 5: ns1.ece.northwestern.edu 
+Query Time 151960 usec 
+Querying local name server for name servers for 24.132.162.107.in-addr.arpa. .... 
+Query Time 748 usec 
+Query Time 36050 usec 
+Querying local name server for name servers for 132.162.107.in-addr.arpa. .... 
+Query Time 24277 usec 
+Name Server 0: ns2.defense.net 
+Name Server 1: ns1.defense.net 
+
+Checking if there are root name servers among authoritative name servers for either end hosts
+Check Succeeded without any failures
+
+
+END OF STAGE 1 
+
+
+BEGIN OF STAGE 2 
+
+Querying to check if name server ns2.ece.northwestern.edu is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns2.ece.northwestern.edu is recursive
+Querying to check if name server ns3.ece.northwestern.edu is recursive
+Query Time 7073 usec 
+Name Server ns3.ece.northwestern.edu IS recursive 
+Querying to check if name server dns1.buffalo.edu is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns1.buffalo.edu is recursive
+Querying to check if name server cicada.northwestern.edu is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server cicada.northwestern.edu is recursive
+Querying to check if name server accuvax.northwestern.edu is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server accuvax.northwestern.edu is recursive
+Querying to check if name server ns1.ece.northwestern.edu is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns1.ece.northwestern.edu is recursive
+Number of Recursive Name Servers = 1
+
+END OF STAGE 2 
+
+
+
+BEGIN OF STAGE 3 
+
+Querying for ip address of ns3.ece.northwestern.edu .... 
+Query Time 774 usec 
+The IP Address of ns3.ece.northwestern.edu is 129.105.5.98
+The extent of match of ns3.ece.northwestern.edu is 2 
+THE RECURSIVE SERVER CHOSEN IS ns3.ece.northwestern.edu AND ITS IP ADDRESS is 129.105.5.98
+
+Extent of Name and IP Match Between End Host and Name Servers are 1 -1 2
+
+
+END OF STAGE 3 
+
+
+
+
+BEGIN OF STAGE 4 
+
+Ping Attempt 0 to ns3.ece.northwestern.edu
+Query Time 665 usec 
+Recursive Ping Attempt 0 from ns3.ece.northwestern.edu to 748184.24.132.162.107.in-addr.arpa.
+Size of Response is 2560000
+Query Time 24190 usec 
+Ping Attempt 1 to ns3.ece.northwestern.edu
+Query Time 654 usec 
+Recursive Ping Attempt 1 from ns3.ece.northwestern.edu to 974804.24.132.162.107.in-addr.arpa.
+Size of Response is 2560000
+Query Time 47696 usec 
+Ping Attempt 2 to ns3.ece.northwestern.edu
+Query Time 615 usec 
+Recursive Ping Attempt 2 from ns3.ece.northwestern.edu to 224910.24.132.162.107.in-addr.arpa.
+Size of Response is 2560000
+Query Time 71151 usec 
+Ping Attempt 3 to ns3.ece.northwestern.edu
+Query Time 650 usec 
+Recursive Ping Attempt 3 from ns3.ece.northwestern.edu to 498495.24.132.162.107.in-addr.arpa.
+Size of Response is 2560000
+Query Time 31732 usec 
+
+
+END OF STAGE 4 
+
+The direction of estimation is FORWARD
+THE ESTIMATED LATENCY BETWEEN 129.105.8.229 and 107.162.132.24 IS 23575 usec
+THE ESTIMATED BANDWIDTH IS 108589.607635 KB/s
+
+Latency is estimated between 116.253.105.129.in-addr.arpa. and 24.132.162.107.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 893 usec 
+Querying local name server for name servers for 116.253.105.129.in-addr.arpa. .... 
+Query Time 663 usec 
+Name Server 0: cicada.northwestern.edu 
+Name Server 1: accuvax.northwestern.edu 
+Name Server 2: dns1.buffalo.edu 
+Query Time 634 usec 
+Querying local name server for name servers for 24.132.162.107.in-addr.arpa. .... 
+Query Time 707 usec 
+Query Time 715 usec 
+Querying local name server for name servers for 132.162.107.in-addr.arpa. .... 
+Query Time 805 usec 
+Name Server 0: ns2.defense.net 
+Name Server 1: ns1.defense.net 
+
+Checking if there are root name servers among authoritative name servers for either end hosts
+Check Succeeded without any failures
+
+
+END OF STAGE 1 
+
+
+BEGIN OF STAGE 2 
+
+Querying to check if name server cicada.northwestern.edu is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server cicada.northwestern.edu is recursive
+Querying to check if name server accuvax.northwestern.edu is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server accuvax.northwestern.edu is recursive
+Querying to check if name server dns1.buffalo.edu is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns1.buffalo.edu is recursive
+Querying to check if name server ns2.defense.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns2.defense.net is recursive
+Querying to check if name server ns1.defense.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns1.defense.net is recursive
+EXITING THE PROGRAM DUE TO LACK OF RECURSIVE NAME SERVERS
+
+Latency is estimated between 206.27.244.50.in-addr.arpa. and 24.132.162.107.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 10154 usec 
+Querying local name server for name servers for 206.27.244.50.in-addr.arpa. .... 
+Query Time 849 usec 
+Name Server 0: dns102.comcast.net 
+Name Server 1: dns103.comcast.net 
+Name Server 2: dns104.comcast.net 
+Name Server 3: dns105.comcast.net 
+Name Server 4: dns101.comcast.net 
+Query Time 629 usec 
+Querying local name server for name servers for 24.132.162.107.in-addr.arpa. .... 
+Query Time 707 usec 
+Query Time 715 usec 
+Querying local name server for name servers for 132.162.107.in-addr.arpa. .... 
+Query Time 805 usec 
+Name Server 0: ns2.defense.net 
+Name Server 1: ns1.defense.net 
+
+Checking if there are root name servers among authoritative name servers for either end hosts
+Check Succeeded without any failures
+
+
+END OF STAGE 1 
+
+
+BEGIN OF STAGE 2 
+
+Querying to check if name server dns102.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns102.comcast.net is recursive
+Querying to check if name server dns103.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns103.comcast.net is recursive
+Querying to check if name server dns104.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns104.comcast.net is recursive
+Querying to check if name server dns105.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns105.comcast.net is recursive
+Querying to check if name server dns101.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns101.comcast.net is recursive
+Querying to check if name server ns2.defense.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns2.defense.net is recursive
+Querying to check if name server ns1.defense.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns1.defense.net is recursive
+EXITING THE PROGRAM DUE TO LACK OF RECURSIVE NAME SERVERS
+
+Latency is estimated between 206.27.244.50.in-addr.arpa. and 24.132.162.107.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 929 usec 
+Querying local name server for name servers for 206.27.244.50.in-addr.arpa. .... 
+Query Time 670 usec 
+Name Server 0: dns103.comcast.net 
+Name Server 1: dns104.comcast.net 
+Name Server 2: dns105.comcast.net 
+Name Server 3: dns101.comcast.net 
+Name Server 4: dns102.comcast.net 
+Query Time 627 usec 
+Querying local name server for name servers for 24.132.162.107.in-addr.arpa. .... 
+Query Time 710 usec 
+Query Time 715 usec 
+Querying local name server for name servers for 132.162.107.in-addr.arpa. .... 
+Query Time 801 usec 
+Name Server 0: ns1.defense.net 
+Name Server 1: ns2.defense.net 
+
+Checking if there are root name servers among authoritative name servers for either end hosts
+Check Succeeded without any failures
+
+
+END OF STAGE 1 
+
+
+BEGIN OF STAGE 2 
+
+Querying to check if name server dns103.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns103.comcast.net is recursive
+Querying to check if name server dns104.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns104.comcast.net is recursive
+Querying to check if name server dns105.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns105.comcast.net is recursive
+Querying to check if name server dns101.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns101.comcast.net is recursive
+Querying to check if name server dns102.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns102.comcast.net is recursive
+Querying to check if name server ns1.defense.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns1.defense.net is recursive
+Querying to check if name server ns2.defense.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns2.defense.net is recursive
+EXITING THE PROGRAM DUE TO LACK OF RECURSIVE NAME SERVERS
+
+Latency is estimated between 206.27.244.50.in-addr.arpa. and 24.132.162.107.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 846 usec 
+Querying local name server for name servers for 206.27.244.50.in-addr.arpa. .... 
+Query Time 677 usec 
+Name Server 0: dns101.comcast.net 
+Name Server 1: dns102.comcast.net 
+Name Server 2: dns103.comcast.net 
+Name Server 3: dns104.comcast.net 
+Name Server 4: dns105.comcast.net 
+Query Time 629 usec 
+Querying local name server for name servers for 24.132.162.107.in-addr.arpa. .... 
+Query Time 716 usec 
+Query Time 711 usec 
+Querying local name server for name servers for 132.162.107.in-addr.arpa. .... 
+Query Time 804 usec 
+Name Server 0: ns1.defense.net 
+Name Server 1: ns2.defense.net 
+
+Checking if there are root name servers among authoritative name servers for either end hosts
+Check Succeeded without any failures
+
+
+END OF STAGE 1 
+
+
+BEGIN OF STAGE 2 
+
+Querying to check if name server dns101.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns101.comcast.net is recursive
+Querying to check if name server dns102.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns102.comcast.net is recursive
+Querying to check if name server dns103.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns103.comcast.net is recursive
+Querying to check if name server dns104.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns104.comcast.net is recursive
+Querying to check if name server dns105.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns105.comcast.net is recursive
+Querying to check if name server ns1.defense.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns1.defense.net is recursive
+Querying to check if name server ns2.defense.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns2.defense.net is recursive
+EXITING THE PROGRAM DUE TO LACK OF RECURSIVE NAME SERVERS
+
+Latency is estimated between 206.27.244.50.in-addr.arpa. and 24.132.162.107.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 859 usec 
+Querying local name server for name servers for 206.27.244.50.in-addr.arpa. .... 
+Query Time 670 usec 
+Name Server 0: dns101.comcast.net 
+Name Server 1: dns102.comcast.net 
+Name Server 2: dns103.comcast.net 
+Name Server 3: dns104.comcast.net 
+Name Server 4: dns105.comcast.net 
+Query Time 634 usec 
+Querying local name server for name servers for 24.132.162.107.in-addr.arpa. .... 
+Query Time 711 usec 
+Query Time 715 usec 
+Querying local name server for name servers for 132.162.107.in-addr.arpa. .... 
+Query Time 799 usec 
+Name Server 0: ns1.defense.net 
+Name Server 1: ns2.defense.net 
+
+Checking if there are root name servers among authoritative name servers for either end hosts
+Check Succeeded without any failures
+
+
+END OF STAGE 1 
+
+
+BEGIN OF STAGE 2 
+
+Querying to check if name server dns101.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns101.comcast.net is recursive
+Querying to check if name server dns102.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns102.comcast.net is recursive
+Querying to check if name server dns103.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns103.comcast.net is recursive
+Querying to check if name server dns104.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns104.comcast.net is recursive
+Querying to check if name server dns105.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns105.comcast.net is recursive
+Querying to check if name server ns1.defense.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns1.defense.net is recursive
+Querying to check if name server ns2.defense.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns2.defense.net is recursive
+EXITING THE PROGRAM DUE TO LACK OF RECURSIVE NAME SERVERS
+
+Latency is estimated between 206.27.244.50.in-addr.arpa. and 24.132.162.107.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 857 usec 
+Querying local name server for name servers for 206.27.244.50.in-addr.arpa. .... 
+Query Time 646 usec 
+Name Server 0: dns102.comcast.net 
+Name Server 1: dns103.comcast.net 
+Name Server 2: dns104.comcast.net 
+Name Server 3: dns105.comcast.net 
+Name Server 4: dns101.comcast.net 
+Query Time 619 usec 
+Querying local name server for name servers for 24.132.162.107.in-addr.arpa. .... 
+Query Time 710 usec 
+Query Time 723 usec 
+Querying local name server for name servers for 132.162.107.in-addr.arpa. .... 
+Query Time 789 usec 
+Name Server 0: ns2.defense.net 
+Name Server 1: ns1.defense.net 
+
+Checking if there are root name servers among authoritative name servers for either end hosts
+Check Succeeded without any failures
+
+
+END OF STAGE 1 
+
+
+BEGIN OF STAGE 2 
+
+Querying to check if name server dns102.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns102.comcast.net is recursive
+Querying to check if name server dns103.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns103.comcast.net is recursive
+Querying to check if name server dns104.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns104.comcast.net is recursive
+Querying to check if name server dns105.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns105.comcast.net is recursive
+Querying to check if name server dns101.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns101.comcast.net is recursive
+Querying to check if name server ns2.defense.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns2.defense.net is recursive
+Querying to check if name server ns1.defense.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns1.defense.net is recursive
+EXITING THE PROGRAM DUE TO LACK OF RECURSIVE NAME SERVERS
+
+Latency is estimated between 206.27.244.50.in-addr.arpa. and 24.132.162.107.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 726 usec 
+Querying local name server for name servers for 206.27.244.50.in-addr.arpa. .... 
+Query Time 668 usec 
+Name Server 0: dns105.comcast.net 
+Name Server 1: dns101.comcast.net 
+Name Server 2: dns102.comcast.net 
+Name Server 3: dns103.comcast.net 
+Name Server 4: dns104.comcast.net 
+Query Time 628 usec 
+Querying local name server for name servers for 24.132.162.107.in-addr.arpa. .... 
+Query Time 709 usec 
+Query Time 716 usec 
+Querying local name server for name servers for 132.162.107.in-addr.arpa. .... 
+Query Time 806 usec 
+Name Server 0: ns2.defense.net 
+Name Server 1: ns1.defense.net 
+
+Checking if there are root name servers among authoritative name servers for either end hosts
+Check Succeeded without any failures
+
+
+END OF STAGE 1 
+
+
+BEGIN OF STAGE 2 
+
+Querying to check if name server dns105.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns105.comcast.net is recursive
+Querying to check if name server dns101.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns101.comcast.net is recursive
+Querying to check if name server dns102.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns102.comcast.net is recursive
+Querying to check if name server dns103.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns103.comcast.net is recursive
+Querying to check if name server dns104.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns104.comcast.net is recursive
+Querying to check if name server ns2.defense.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns2.defense.net is recursive
+Querying to check if name server ns1.defense.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns1.defense.net is recursive
+EXITING THE PROGRAM DUE TO LACK OF RECURSIVE NAME SERVERS
+
+Latency is estimated between 206.27.244.50.in-addr.arpa. and 24.132.162.107.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 893 usec 
+Querying local name server for name servers for 206.27.244.50.in-addr.arpa. .... 
+Query Time 649 usec 
+Name Server 0: dns104.comcast.net 
+Name Server 1: dns105.comcast.net 
+Name Server 2: dns101.comcast.net 
+Name Server 3: dns102.comcast.net 
+Name Server 4: dns103.comcast.net 
+Query Time 624 usec 
+Querying local name server for name servers for 24.132.162.107.in-addr.arpa. .... 
+Query Time 707 usec 
+Query Time 717 usec 
+Querying local name server for name servers for 132.162.107.in-addr.arpa. .... 
+Query Time 803 usec 
+Name Server 0: ns2.defense.net 
+Name Server 1: ns1.defense.net 
+
+Checking if there are root name servers among authoritative name servers for either end hosts
+Check Succeeded without any failures
+
+
+END OF STAGE 1 
+
+
+BEGIN OF STAGE 2 
+
+Querying to check if name server dns104.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns104.comcast.net is recursive
+Querying to check if name server dns105.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns105.comcast.net is recursive
+Querying to check if name server dns101.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns101.comcast.net is recursive
+Querying to check if name server dns102.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns102.comcast.net is recursive
+Querying to check if name server dns103.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns103.comcast.net is recursive
+Querying to check if name server ns2.defense.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns2.defense.net is recursive
+Querying to check if name server ns1.defense.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns1.defense.net is recursive
+EXITING THE PROGRAM DUE TO LACK OF RECURSIVE NAME SERVERS
+
+Latency is estimated between 41.29.120.96.in-addr.arpa. and 24.132.162.107.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 57432 usec 
+Querying local name server for name servers for 41.29.120.96.in-addr.arpa. .... 
+Query Time 647 usec 
+Query Time 7039 usec 
+Querying local name server for name servers for 29.120.96.in-addr.arpa. .... 
+Query Time 625 usec 
+Query Time 7058 usec 
+Querying local name server for name servers for 120.96.in-addr.arpa. .... 
+Query Time 7088 usec 
+Name Server 0: dns101.comcast.net 
+Name Server 1: dns102.comcast.net 
+Name Server 2: dns103.comcast.net 
+Name Server 3: dns104.comcast.net 
+Name Server 4: dns105.comcast.net 
+Query Time 738 usec 
+Querying local name server for name servers for 24.132.162.107.in-addr.arpa. .... 
+Query Time 715 usec 
+Query Time 708 usec 
+Querying local name server for name servers for 132.162.107.in-addr.arpa. .... 
+Query Time 799 usec 
+Name Server 0: ns2.defense.net 
+Name Server 1: ns1.defense.net 
+
+Checking if there are root name servers among authoritative name servers for either end hosts
+Check Succeeded without any failures
+
+
+END OF STAGE 1 
+
+
+BEGIN OF STAGE 2 
+
+Querying to check if name server dns101.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns101.comcast.net is recursive
+Querying to check if name server dns102.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns102.comcast.net is recursive
+Querying to check if name server dns103.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns103.comcast.net is recursive
+Querying to check if name server dns104.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns104.comcast.net is recursive
+Querying to check if name server dns105.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns105.comcast.net is recursive
+Querying to check if name server ns2.defense.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns2.defense.net is recursive
+Querying to check if name server ns1.defense.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns1.defense.net is recursive
+EXITING THE PROGRAM DUE TO LACK OF RECURSIVE NAME SERVERS
+
+Latency is estimated between 241.233.139.69.in-addr.arpa. and 24.132.162.107.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 62142 usec 
+Querying local name server for name servers for 241.233.139.69.in-addr.arpa. .... 
+Query Time 872 usec 
+Name Server 0: dns101.comcast.net 
+Name Server 1: dns102.comcast.net 
+Name Server 2: dns103.comcast.net 
+Name Server 3: dns104.comcast.net 
+Name Server 4: dns105.comcast.net 
+Query Time 625 usec 
+Querying local name server for name servers for 24.132.162.107.in-addr.arpa. .... 
+Query Time 712 usec 
+Query Time 715 usec 
+Querying local name server for name servers for 132.162.107.in-addr.arpa. .... 
+Query Time 809 usec 
+Name Server 0: ns2.defense.net 
+Name Server 1: ns1.defense.net 
+
+Checking if there are root name servers among authoritative name servers for either end hosts
+Check Succeeded without any failures
+
+
+END OF STAGE 1 
+
+
+BEGIN OF STAGE 2 
+
+Querying to check if name server dns101.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns101.comcast.net is recursive
+Querying to check if name server dns102.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns102.comcast.net is recursive
+Querying to check if name server dns103.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns103.comcast.net is recursive
+Querying to check if name server dns104.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns104.comcast.net is recursive
+Querying to check if name server dns105.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns105.comcast.net is recursive
+Querying to check if name server ns2.defense.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns2.defense.net is recursive
+Querying to check if name server ns1.defense.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns1.defense.net is recursive
+EXITING THE PROGRAM DUE TO LACK OF RECURSIVE NAME SERVERS
+
+Latency is estimated between 209.182.124.165.in-addr.arpa. and 24.132.162.107.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 847 usec 
+Querying local name server for name servers for 209.182.124.165.in-addr.arpa. .... 
+Query Time 692 usec 
+Name Server 0: accuvax.northwestern.edu 
+Name Server 1: ns3.ece.northwestern.edu 
+Name Server 2: dns1.buffalo.edu 
+Name Server 3: cicada.northwestern.edu 
+Query Time 612 usec 
+Querying local name server for name servers for 24.132.162.107.in-addr.arpa. .... 
+Query Time 712 usec 
+Query Time 710 usec 
+Querying local name server for name servers for 132.162.107.in-addr.arpa. .... 
+Query Time 803 usec 
+Name Server 0: ns2.defense.net 
+Name Server 1: ns1.defense.net 
+
+Checking if there are root name servers among authoritative name servers for either end hosts
+Check Succeeded without any failures
+
+
+END OF STAGE 1 
+
+
+BEGIN OF STAGE 2 
+
+Querying to check if name server accuvax.northwestern.edu is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server accuvax.northwestern.edu is recursive
+Querying to check if name server ns3.ece.northwestern.edu is recursive
+Query Time 3599 usec 
+Name Server ns3.ece.northwestern.edu IS recursive 
+Querying to check if name server dns1.buffalo.edu is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns1.buffalo.edu is recursive
+Querying to check if name server cicada.northwestern.edu is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server cicada.northwestern.edu is recursive
+Number of Recursive Name Servers = 1
+
+END OF STAGE 2 
+
+
+
+BEGIN OF STAGE 3 
+
+Querying for ip address of ns3.ece.northwestern.edu .... 
+Query Time 827 usec 
+The IP Address of ns3.ece.northwestern.edu is 129.105.5.98
+The extent of match of ns3.ece.northwestern.edu is 0 
+THE RECURSIVE SERVER CHOSEN IS ns3.ece.northwestern.edu AND ITS IP ADDRESS is 129.105.5.98
+
+Extent of Name and IP Match Between End Host and Name Servers are 1 -1 0
+
+
+END OF STAGE 3 
+
+
+
+
+BEGIN OF STAGE 4 
+
+Ping Attempt 0 to ns3.ece.northwestern.edu
+Query Time 655 usec 
+Recursive Ping Attempt 0 from ns3.ece.northwestern.edu to 941336.24.132.162.107.in-addr.arpa.
+Size of Response is 2560000
+Query Time 23427 usec 
+Ping Attempt 1 to ns3.ece.northwestern.edu
+Query Time 651 usec 
+Recursive Ping Attempt 1 from ns3.ece.northwestern.edu to 167204.24.132.162.107.in-addr.arpa.
+Size of Response is 2560000
+Query Time 24246 usec 
+Ping Attempt 2 to ns3.ece.northwestern.edu
+Query Time 637 usec 
+Recursive Ping Attempt 2 from ns3.ece.northwestern.edu to 393827.24.132.162.107.in-addr.arpa.
+Size of Response is 2560000
+Query Time 78396 usec 
+Ping Attempt 3 to ns3.ece.northwestern.edu
+Query Time 604 usec 
+Recursive Ping Attempt 3 from ns3.ece.northwestern.edu to 674667.24.132.162.107.in-addr.arpa.
+Size of Response is 2560000
+Query Time 75896 usec 
+
+
+END OF STAGE 4 
+
+The direction of estimation is FORWARD
+THE ESTIMATED LATENCY BETWEEN 165.124.182.209 and 107.162.132.24 IS 22823 usec
+THE ESTIMATED BANDWIDTH IS 112167.550278 KB/s
+
+Latency is estimated between 121.196.86.68.in-addr.arpa. and 24.132.162.107.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 9984 usec 
+Querying local name server for name servers for 121.196.86.68.in-addr.arpa. .... 
+Query Time 853 usec 
+Name Server 0: dns102.comcast.net 
+Name Server 1: dns103.comcast.net 
+Name Server 2: dns104.comcast.net 
+Name Server 3: dns105.comcast.net 
+Name Server 4: dns101.comcast.net 
+Query Time 655 usec 
+Querying local name server for name servers for 24.132.162.107.in-addr.arpa. .... 
+Query Time 679 usec 
+Query Time 709 usec 
+Querying local name server for name servers for 132.162.107.in-addr.arpa. .... 
+Query Time 793 usec 
+Name Server 0: ns2.defense.net 
+Name Server 1: ns1.defense.net 
+
+Checking if there are root name servers among authoritative name servers for either end hosts
+Check Succeeded without any failures
+
+
+END OF STAGE 1 
+
+
+BEGIN OF STAGE 2 
+
+Querying to check if name server dns102.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns102.comcast.net is recursive
+Querying to check if name server dns103.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns103.comcast.net is recursive
+Querying to check if name server dns104.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns104.comcast.net is recursive
+Querying to check if name server dns105.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns105.comcast.net is recursive
+Querying to check if name server dns101.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns101.comcast.net is recursive
+Querying to check if name server ns2.defense.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns2.defense.net is recursive
+Querying to check if name server ns1.defense.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns1.defense.net is recursive
+EXITING THE PROGRAM DUE TO LACK OF RECURSIVE NAME SERVERS
+
+Latency is estimated between 210.57.167.173.in-addr.arpa. and 24.132.162.107.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 10134 usec 
+Querying local name server for name servers for 210.57.167.173.in-addr.arpa. .... 
+Query Time 824 usec 
+Name Server 0: dns103.comcast.net 
+Name Server 1: dns104.comcast.net 
+Name Server 2: dns105.comcast.net 
+Name Server 3: dns101.comcast.net 
+Name Server 4: dns102.comcast.net 
+Query Time 634 usec 
+Querying local name server for name servers for 24.132.162.107.in-addr.arpa. .... 
+Query Time 705 usec 
+Query Time 691 usec 
+Querying local name server for name servers for 132.162.107.in-addr.arpa. .... 
+Query Time 831 usec 
+Name Server 0: ns2.defense.net 
+Name Server 1: ns1.defense.net 
+
+Checking if there are root name servers among authoritative name servers for either end hosts
+Check Succeeded without any failures
+
+
+END OF STAGE 1 
+
+
+BEGIN OF STAGE 2 
+
+Querying to check if name server dns103.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns103.comcast.net is recursive
+Querying to check if name server dns104.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns104.comcast.net is recursive
+Querying to check if name server dns105.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns105.comcast.net is recursive
+Querying to check if name server dns101.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns101.comcast.net is recursive
+Querying to check if name server dns102.comcast.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server dns102.comcast.net is recursive
+Querying to check if name server ns2.defense.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns2.defense.net is recursive
+Querying to check if name server ns1.defense.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns1.defense.net is recursive
+EXITING THE PROGRAM DUE TO LACK OF RECURSIVE NAME SERVERS
+
+Latency is estimated between 3.244.85.209.in-addr.arpa. and 24.132.162.107.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 27996 usec 
+Querying local name server for name servers for 3.244.85.209.in-addr.arpa. .... 
+Query Time 601 usec 
+Query Time 13023 usec 
+Querying local name server for name servers for 244.85.209.in-addr.arpa. .... 
+Query Time 13097 usec 
+Name Server 0: ns1.google.com 
+Name Server 1: ns2.google.com 
+Name Server 2: ns3.google.com 
+Name Server 3: ns4.google.com 
+Query Time 754 usec 
+Querying local name server for name servers for 24.132.162.107.in-addr.arpa. .... 
+Query Time 707 usec 
+Query Time 717 usec 
+Querying local name server for name servers for 132.162.107.in-addr.arpa. .... 
+Query Time 808 usec 
+Name Server 0: ns2.defense.net 
+Name Server 1: ns1.defense.net 
+
+Checking if there are root name servers among authoritative name servers for either end hosts
+Check Succeeded without any failures
+
+
+END OF STAGE 1 
+
+
+BEGIN OF STAGE 2 
+
+Querying to check if name server ns1.google.com is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns1.google.com is recursive
+Querying to check if name server ns2.google.com is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns2.google.com is recursive
+Querying to check if name server ns3.google.com is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns3.google.com is recursive
+Querying to check if name server ns4.google.com is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns4.google.com is recursive
+Querying to check if name server ns2.defense.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns2.defense.net is recursive
+Querying to check if name server ns1.defense.net is recursive
+res_send returned an error...
+ERROR WHILE CHECKING WHETHER Name Server ns1.defense.net is recursive
+EXITING THE PROGRAM DUE TO LACK OF RECURSIVE NAME SERVERS
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 23.216.58.216.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 17662 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 596 usec 
+Query Time 17520 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 649 usec 
+Query Time 17768 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 644 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 23.216.58.216.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 609 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 694 usec 
+Query Time 703 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 741 usec 
+Query Time 690 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 714 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 23.216.58.216.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 799 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 650 usec 
+Query Time 708 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 716 usec 
+Query Time 717 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 714 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 23.216.58.216.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 750 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 665 usec 
+Query Time 726 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 754 usec 
+Query Time 666 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 727 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 23.216.58.216.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 814 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 689 usec 
+Query Time 713 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 716 usec 
+Query Time 714 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 719 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 23.216.58.216.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 832 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 641 usec 
+Query Time 708 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 715 usec 
+Query Time 714 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 720 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 23.216.58.216.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 689 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 668 usec 
+Query Time 709 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 719 usec 
+Query Time 715 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 722 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 23.216.58.216.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 682 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 673 usec 
+Query Time 707 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 716 usec 
+Query Time 719 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 712 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 23.216.58.216.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 830 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 678 usec 
+Query Time 713 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 710 usec 
+Query Time 717 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 720 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 23.216.58.216.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 728 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 685 usec 
+Query Time 718 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 713 usec 
+Query Time 716 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 715 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 23.216.58.216.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 622 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 690 usec 
+Query Time 713 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 716 usec 
+Query Time 718 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 714 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 23.216.58.216.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 720 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 682 usec 
+Query Time 713 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 722 usec 
+Query Time 706 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 713 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 23.216.58.216.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 835 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 690 usec 
+Query Time 711 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 722 usec 
+Query Time 711 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 718 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 23.216.58.216.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 847 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 669 usec 
+Query Time 709 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 716 usec 
+Query Time 716 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 715 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 23.216.58.216.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 650 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 679 usec 
+Query Time 713 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 716 usec 
+Query Time 720 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 712 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 23.216.58.216.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 856 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 665 usec 
+Query Time 716 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 712 usec 
+Query Time 718 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 713 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 23.216.58.216.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 815 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 675 usec 
+Query Time 710 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 717 usec 
+Query Time 715 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 721 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 819 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 657 usec 
+Query Time 705 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 712 usec 
+Query Time 715 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 714 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 735 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 674 usec 
+Query Time 709 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 713 usec 
+Query Time 717 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 717 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 781 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 677 usec 
+Query Time 715 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 718 usec 
+Query Time 717 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 713 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 796 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 681 usec 
+Query Time 710 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 714 usec 
+Query Time 715 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 716 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 629 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 676 usec 
+Query Time 732 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 699 usec 
+Query Time 715 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 714 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 775 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 677 usec 
+Query Time 714 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 715 usec 
+Query Time 716 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 727 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 779 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 663 usec 
+Query Time 711 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 717 usec 
+Query Time 715 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 715 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 626 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 683 usec 
+Query Time 621 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 567 usec 
+Query Time 568 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 628 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 842 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 680 usec 
+Query Time 711 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 722 usec 
+Query Time 710 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 718 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 749 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 689 usec 
+Query Time 713 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 716 usec 
+Query Time 717 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 718 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 865 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 655 usec 
+Query Time 707 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 710 usec 
+Query Time 714 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 717 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 751 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 703 usec 
+Query Time 710 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 718 usec 
+Query Time 714 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 719 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 653 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 682 usec 
+Query Time 715 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 717 usec 
+Query Time 715 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 716 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 750 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 679 usec 
+Query Time 714 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 716 usec 
+Query Time 714 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 707 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 628 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 682 usec 
+Query Time 713 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 717 usec 
+Query Time 720 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 714 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 646 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 683 usec 
+Query Time 714 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 715 usec 
+Query Time 727 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 708 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 723 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 671 usec 
+Query Time 714 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 713 usec 
+Query Time 715 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 721 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 709 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 684 usec 
+Query Time 714 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 718 usec 
+Query Time 715 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 715 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 629 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 664 usec 
+Query Time 709 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 716 usec 
+Query Time 714 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 715 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 748 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 683 usec 
+Query Time 713 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 722 usec 
+Query Time 713 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 714 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 668 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 683 usec 
+Query Time 709 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 703 usec 
+Query Time 717 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 716 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 714 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 668 usec 
+Query Time 709 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 716 usec 
+Query Time 724 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 730 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 654 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 672 usec 
+Query Time 707 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 720 usec 
+Query Time 712 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 724 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 796 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 666 usec 
+Query Time 710 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 716 usec 
+Query Time 715 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 717 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 861 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 672 usec 
+Query Time 709 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 713 usec 
+Query Time 715 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 716 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 641 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 676 usec 
+Query Time 715 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 715 usec 
+Query Time 717 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 713 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 833 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 681 usec 
+Query Time 714 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 714 usec 
+Query Time 716 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 716 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 747 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 683 usec 
+Query Time 715 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 716 usec 
+Query Time 719 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 714 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 620 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 678 usec 
+Query Time 705 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 708 usec 
+Query Time 730 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 723 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 648 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 679 usec 
+Query Time 712 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 714 usec 
+Query Time 715 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 719 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 690 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 651 usec 
+Query Time 713 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 712 usec 
+Query Time 719 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 711 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 797 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 667 usec 
+Query Time 711 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 715 usec 
+Query Time 718 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 713 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 658 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 676 usec 
+Query Time 711 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 730 usec 
+Query Time 704 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 720 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 716 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 717 usec 
+Query Time 712 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 717 usec 
+Query Time 713 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 717 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 800 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 690 usec 
+Query Time 717 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 637 usec 
+Query Time 543 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 716 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 716 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 682 usec 
+Query Time 705 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 716 usec 
+Query Time 716 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 719 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 686 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 560 usec 
+Query Time 573 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 723 usec 
+Query Time 711 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 712 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 763 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 689 usec 
+Query Time 722 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 707 usec 
+Query Time 717 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 717 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 643 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 691 usec 
+Query Time 711 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 716 usec 
+Query Time 715 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 718 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 670 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 687 usec 
+Query Time 692 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 714 usec 
+Query Time 716 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 717 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 780 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 641 usec 
+Query Time 704 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 717 usec 
+Query Time 714 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 718 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 814 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 685 usec 
+Query Time 714 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 716 usec 
+Query Time 720 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 690 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 647 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 687 usec 
+Query Time 711 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 718 usec 
+Query Time 713 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 718 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 636 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 680 usec 
+Query Time 713 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 715 usec 
+Query Time 714 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 717 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 622 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 685 usec 
+Query Time 714 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 718 usec 
+Query Time 712 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 718 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 659 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 681 usec 
+Query Time 710 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 716 usec 
+Query Time 719 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 711 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 826 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 678 usec 
+Query Time 710 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 716 usec 
+Query Time 715 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 717 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 670 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 689 usec 
+Query Time 709 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 714 usec 
+Query Time 723 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 706 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 138.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 700 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 689 usec 
+Query Time 713 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 716 usec 
+Query Time 716 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 717 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
+
+Latency is estimated between 1.0.105.10.in-addr.arpa. and 102.70.125.74.in-addr.arpa. 
+
+
+BEGIN OF STAGE 1 
+
+Query Time 690 usec 
+Querying local name server for name servers for 1.0.105.10.in-addr.arpa. .... 
+Query Time 664 usec 
+Query Time 713 usec 
+Querying local name server for name servers for 0.105.10.in-addr.arpa. .... 
+Query Time 716 usec 
+Query Time 711 usec 
+Querying local name server for name servers for 105.10.in-addr.arpa. .... 
+Query Time 717 usec 
+EXITING DUE TO FAILURE TO RESOLVE THE NAME 1.0.105.10.in-addr.arpa.
